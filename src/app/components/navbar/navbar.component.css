@@ -1,0 +1,41 @@
+/* -------------navbar------------ */
+.navbar {
+    width: 50%;
+    margin-left: 350px;
+    background: inherit;
+    /* border: 0.5px solid rgb(202, 160, 21); */
+    border-radius: 10px;
+
+    
+  
+}
+
+.navbar a{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.navbar-nav{
+    gap: 50px;
+    margin: auto;
+   
+}
+
+
+/* ----------fin del navbar---------- */
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+
+}
+/* Small devices (portrait tablets and large phones, 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    
+}
+/* Medium devices (landscape tablets, 768px and 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px){}
+
+/* Largue devices ( landscape desktop, 1025px and 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {}

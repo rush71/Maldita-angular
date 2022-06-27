@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ComponentsRoutingModule } from './components-routing.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -17,7 +18,8 @@ import { ComponentsRoutingModule } from './components-routing.module';
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    GalleryComponent
+    GalleryComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { ComponentsRoutingModule } from './components-routing.module';
     HeaderComponent,
     FooterComponent,
     GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    NavbarComponent
   ]
 })
 export class ComponentsModule { }
