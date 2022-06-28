@@ -18,7 +18,7 @@ export class NavbarTestComponent implements OnInit {
 
   testeoBravo(){
 
-    this.service.carga(['/navbar/navbar']);
+    this.service.carga(['navbar/navbar']);
   }
 }
 
