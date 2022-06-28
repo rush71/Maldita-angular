@@ -24,7 +24,26 @@ import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    MatSliderModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    MatProgressSpinnerModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatGridListModule,
+    MatCardModule,
+    MatListModule,
+    MatAutocompleteModule,
+    ScrollingModule,
+    MatSidenavModule,
+    MatSelectModule,
+    MatTabsModule,
+    MatDividerModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   exports:[
     CommonModule,
