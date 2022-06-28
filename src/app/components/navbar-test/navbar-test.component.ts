@@ -15,6 +15,11 @@ export class NavbarTestComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  testeoBravo(){
+
+    this.service.carga(['/navbar/navbar']);
+  }
 }
 
 
