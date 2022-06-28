@@ -1,10 +1,15 @@
+const mainMenu = document.querySelector('.mainMenu')
+const closeMenu = document.querySelector('.closeMenu')
+const openMenu = document.querySelector('.openMenu')
 
+openMenu.addEventListener('click', show)
+closeMenu.addEventListener('click', close)
 
-
-// aca pones todo el codigo js
-
-function mostrarMensaje() {
-    console.log("aaaaaaaaaaaaaaaa")
+function show (){
+  mainMenu.style.display = 'flex'
+  mainMenu.style.top = '0'
 }
 
-mostrarMensaje();
+function close (){
+  mainMenu.style.top = '-100%'
+}
