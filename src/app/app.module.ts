@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+//SERVICE//
+import { ServiceService } from './service/service.service';
+
+//FIN DE SERVICE//
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
@@ -18,10 +23,10 @@ import { RouterModule } from '@angular/router';
     ComponentsModule,
     SharedModule,
     RouterModule,
-    
+
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

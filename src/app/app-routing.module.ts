@@ -9,7 +9,7 @@ const routes: Routes = [
 
   {
     path: '**',
-    redirectTo: 'components',
+    redirectTo: '',
     pathMatch: 'full'
   }
 
