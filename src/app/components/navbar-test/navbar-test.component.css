@@ -1,10 +1,15 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     box-sizing: border-box;
     margin: 0;
 }
 
-nav{
+
+nav p {
+    font-size: 2rem;
+}
+
+nav {
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -12,35 +17,36 @@ nav{
     height: 85px;
 }
 
-nav .logo{
+nav .logo {
     color: #fff;
-    margin: 6px;
-    cursor: pointer;
+margin-left: 10px;
+margin-bottom: 15px;
+cursor: pointer;
 }
 
-nav .mainMenu{
+nav .mainMenu {
     display: flex;
     list-style: none;
     height: 80px;
 
 }
 
-nav .mainMenu li a{
+nav .mainMenu li a {
     display: inline-block;
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color:#fff;
+    color: #fff;
     font-size: 1.5rem;
 }
 
-nav .mainMenu li a:hover{
+nav .mainMenu li a:hover {
     background-color: #fff;
     color: black;
-    
+
 }
 
-nav .openMenu{
+nav .openMenu {
     font-size: 2rem;
     margin: 20px;
     /* display: none;   */
@@ -49,7 +55,8 @@ nav .openMenu{
     top: -100px;
 }
 
-nav .mainMenu .closeMenu , .icons i {
+nav .mainMenu .closeMenu,
+.icons i {
     display: none;
     cursor: pointer;
 }
@@ -59,8 +66,10 @@ nav .mainMenu .closeMenu , .icons i {
 
 /* responsive */
 
-@media (max-width:800px){
-    nav .mainMenu{
+@media (max-width:980px) {}
+
+@media (max-width:800px) {
+    nav .mainMenu {
         height: 100vh;
         position: fixed;
         top: 0;
@@ -70,17 +79,19 @@ nav .mainMenu .closeMenu , .icons i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background:rgb(0, 0, 0);
+        background: rgb(0, 0, 0);
         transition: top 1s ease;
         display: none;
     }
 
-    nav .mainMenu .closeMenu{
+
+    nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 8px;
+        right: 42px;
         color: white;
+        font-size: 50px;
     }
 
     nav .openMenu {
@@ -89,19 +100,19 @@ nav .mainMenu .closeMenu , .icons i {
         position: absolute;
         top: -5px;
         right: 20px;
-        
+
     }
 
-    nav .mainMenu li a:hover{
+    nav .mainMenu li a:hover {
         background: none;
         color: #fff;
         font-style: 1.6rem;
     }
 
-    nav .icons i{
+    nav .icons i {
         display: inline-block;
         padding: 12px;
         color: white;
-        
+
     }
 }
