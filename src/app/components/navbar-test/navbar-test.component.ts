@@ -7,7 +7,7 @@ import { ServiceService } from 'src/app/service/service.service';
   styleUrls: ['./navbar-test.component.css']
 })
 export class HomeComponent implements OnInit {
-
+    
   constructor(private service: ServiceService) { 
     // service.carga(['/navbar/navbar']);
   }
