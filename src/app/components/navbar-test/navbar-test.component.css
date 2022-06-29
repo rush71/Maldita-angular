@@ -66,7 +66,7 @@ nav .mainMenu li a:hover {
     background: #fff;
     color: black;
     border-radius: 5px;
-    
+
 }
 
 
@@ -85,6 +85,9 @@ nav .mainMenu .closeMenu,
     cursor: pointer;
 }
 
+.fa-facebook:hover {
+    color: rgb(13, 81, 228);
+}
 
 
 
@@ -104,12 +107,12 @@ nav .mainMenu .closeMenu,
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background:black;
+        background: black;
         transition: top 1s ease;
         display: none;
     }
 
-     nav .maldita {
+    nav .maldita {
 
         color: white;
         text-transform: uppercase;
@@ -138,8 +141,8 @@ nav .mainMenu .closeMenu,
 
     }
 
-       
-    nav .mainMenu li a{
+
+    nav .mainMenu li a {
         font-size: 70px;
     }
 
