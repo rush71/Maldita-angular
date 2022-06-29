@@ -9,8 +9,6 @@ import { ContactComponent } from './contact/contact.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ComponentsRoutingModule } from './components-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
-import { NavbarTestComponent } from './navbar-test/navbar-test.component';
-import { BeerTestComponent } from './beer-test/beer-test.component';
 
 
 
@@ -21,9 +19,7 @@ import { BeerTestComponent } from './beer-test/beer-test.component';
     FooterComponent,
     ContactComponent,
     GalleryComponent,
-    NavbarComponent,
-    NavbarTestComponent,
-    BeerTestComponent
+    NavbarComponent
   ],
   imports: [
     CommonModule,

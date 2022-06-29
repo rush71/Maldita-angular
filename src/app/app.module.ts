@@ -1,17 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-
-//SERVICE//
-import { ServiceService } from './service/service.service';
-
-//FIN DE SERVICE//
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -22,11 +16,9 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     ComponentsModule,
     SharedModule,
-    RouterModule,
-
     BrowserAnimationsModule
   ],
-  providers: [ServiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ServiceService } from 'src/app/service/service.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,13 +6,10 @@ import { ServiceService } from 'src/app/service/service.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  showFiller = false;
-  constructor(private service: ServiceService) { 
-    service.carga(['navbar/navbar'])
-  }
+
+  constructor() { }
 
   ngOnInit(): void {
-    
   }
 
 }
