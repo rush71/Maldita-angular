@@ -1,0 +1,107 @@
+.container__gallery{
+    width: 100;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.beer{
+    width: 370px;
+    height: 370px;
+    background-repeat : no-repeat;
+    background-size :cover;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)),
+    url("https://i.imgur.com/zr6Cei3.jpg");
+    background-repeat : no-repeat;
+    background-size :cover;
+    background-position: center;
+
+}
+.info__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 200px;
+
+}
+
+.texto__banner h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.texto__banner{
+    margin-top: 20px;
+}
+.subtitulo__banner{
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    margin-top: 10px;
+    
+    
+
+
+}
+.subtitulo__banner h3{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+.boton{
+    background-color: rgb(34, 34, 31);
+    color: #fff;
+    opacity: 0.8;
+    
+    
+    
+}
+
+.boton p{
+    margin:auto
+}
+
+
+
+
+.merchandising{
+    width: 370px;
+    height: 370px;
+    background-repeat : no-repeat;
+    background-size :cover;
+    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30)),
+    url("https://i.imgur.com/v6NXupx.png");
+    background-repeat : no-repeat;
+    background-size :cover;
+    background-position: center;
+
+}
+
+.packs{
+    width: 370px;
+    height: 370px;
+    background-repeat : no-repeat;
+    background-size :cover;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)),
+    url("https://i.imgur.com/BLvRQUf.png");
+    background-repeat : no-repeat;
+    background-size :cover;
+    background-position: center;
+
+}
