@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 * {
     padding: 0;
     box-sizing: border-box;
@@ -6,45 +8,67 @@
 
 
 nav p {
-    font-size: 2rem;
+    font-size: 2em;
+    margin-top: 20px;
 }
 
 nav {
-    background-color: black;
+    background: black;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    height: 85px;
+    height: 80px;
 }
 
-nav .logo {
+nav .logo i {
     color: #fff;
-margin-left: 10px;
-margin-bottom: 15px;
-cursor: pointer;
+    margin-left: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+nav .maldita {
+    /* display: none; */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left: -200px;
+    display: none;
 }
 
 nav .mainMenu {
     display: flex;
     list-style: none;
     height: 80px;
+    padding: 20px;
 
 }
 
+
+nav .mainMenu {
+    gap: 40px;
+}
+
+
 nav .mainMenu li a {
+    font-family: 'Righteous', cursive;
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
 }
 
 nav .mainMenu li a:hover {
-    background-color: #fff;
+    background: #fff;
     color: black;
-
+    border-radius: 5px;
+    
 }
+
 
 nav .openMenu {
     font-size: 2rem;
@@ -74,34 +98,51 @@ nav .mainMenu .closeMenu,
         position: fixed;
         top: 0;
         right: 0;
+        gap: 70px;
         left: 0;
         /* z-index: -5; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgb(0, 0, 0);
+        background:black;
         transition: top 1s ease;
         display: none;
     }
 
+     nav .maldita {
+
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        top: 10px;
+        display: block;
+    }
 
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 8px;
+        top: 25px;
         right: 42px;
         color: white;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     nav .openMenu {
         display: block;
         color: rgb(255, 255, 255);
         position: absolute;
-        top: -5px;
+        top: 7px;
         right: 20px;
 
     }
+
+       
+    nav .mainMenu li a{
+        font-size: 70px;
+    }
+
 
     nav .mainMenu li a:hover {
         background: none;
@@ -109,9 +150,18 @@ nav .mainMenu .closeMenu,
         font-style: 1.6rem;
     }
 
+    nav .logo {
+        display: none;
+    }
+
+
+
     nav .icons i {
         display: inline-block;
-        padding: 12px;
+        padding: 30px;
         color: white;
-}
+        font-size: 50px;
+        margin-top: 25px;
+
+    }
 }
