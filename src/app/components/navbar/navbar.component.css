@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+nav p {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+nav {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav .logo i {
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+nav .maldita {
+    /* display: none; */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left: -200px;
+    display: none;
+}
+
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+    height: 80px;
+    padding: 20px;
+
+}
+
+
+nav .mainMenu {
+    gap: 40px;
+}
+
+
+nav .mainMenu li a {
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+nav .mainMenu li a:hover {
+    background: #fff;
+    color: black;
+    border-radius: 5px;
+
+}
+
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    /* display: none;   */
+    cursor: pointer;
+    position: relative;
+    top: -100px;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: rgb(13, 81, 228);
+}
+
+
+
+/* responsive */
+
+@media (max-width:980px) {}
+
+@media (max-width:800px) {
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        gap: 70px;
+        left: 0;
+        /* z-index: -5; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .maldita {
+
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+        top: 10px;
+        display: block;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 42px;
+        color: white;
+        font-size: 40px;
+    }
+
+    nav .openMenu {
+        display: block;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 7px;
+        right: 20px;
+
+    }
+
+
+    nav .mainMenu li a {
+        font-size: 70px;
+    }
+
+
+    nav .mainMenu li a:hover {
+        background: none;
+        color: #fff;
+        font-style: 1.6rem;
+    }
+
+    nav .logo {
+        display: none;
+    }
+
+
+
+    nav .icons i {
+        display: inline-block;
+        padding: 30px;
+        color: white;
+        font-size: 50px;
+        margin-top: 25px;
+
+    }
+}

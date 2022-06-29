@@ -19,7 +19,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     FooterComponent,
     ContactComponent,
     GalleryComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     CommonModule,
