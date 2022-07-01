@@ -1,9 +1,10 @@
 .container__gallery{
-    width: 100;
+    width: 100%;
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .gallery{
@@ -25,6 +26,39 @@
     background-repeat : no-repeat;
     background-size :cover;
     background-position: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+
+}
+
+.merchandising{
+    width: 370px;
+    height: 370px;
+    background-repeat : no-repeat;
+    background-size :cover;
+    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30)),
+    url("https://i.imgur.com/v6NXupx.png");
+    background-repeat : no-repeat;
+    background-size :cover;
+    background-position: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+}
+
+.packs{
+    width: 370px;
+    height: 370px;
+    background-repeat : no-repeat;
+    background-size :cover;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)),
+    url("https://i.imgur.com/BLvRQUf.png");
+    background-repeat : no-repeat;
+    background-size :cover;
+    background-position: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 
 }
 .info__content{
@@ -80,28 +114,108 @@
 
 
 
-.merchandising{
-    width: 370px;
-    height: 370px;
-    background-repeat : no-repeat;
-    background-size :cover;
-    background: linear-gradient(rgba(5, 7, 12, 0.30), rgba(5, 7, 12, 0.30)),
-    url("https://i.imgur.com/v6NXupx.png");
-    background-repeat : no-repeat;
-    background-size :cover;
-    background-position: center;
+
+
+
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+
+    .container__gallery{
+        height: 1200px;
+    }
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    
+
 
 }
+/* Small devices (portrait tablets and large phones, 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container__gallery{
+        height: 1400px;
+    }
 
-.packs{
-    width: 370px;
-    height: 370px;
-    background-repeat : no-repeat;
-    background-size :cover;
-    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)),
-    url("https://i.imgur.com/BLvRQUf.png");
-    background-repeat : no-repeat;
-    background-size :cover;
-    background-position: center;
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
+    .beer{
+        width: 400px;
+        height: 400px;
+    }
+
+    .merchandising{
+        width: 400px;
+        height: 400px;
+    }
+
+    .packs{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .container__gallery{
+        height: 900px;
+    }
+
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .beer{
+        width: 370px;
+        height: 370px;
+    }
+
+    .merchandising{
+        width: 370px;
+        height: 370px;
+    }
+
+    .packs{
+        width: 370px;
+        height: 370px;
+    }
+}
+
+/* Largue devices ( landscape desktop, 1025px and 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .container__gallery{
+        height: 700px;
+    }
+
+    .gallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .beer{
+        width: 350px;
+        height: 350px;
+    }
+
+    .merchandising{
+        width: 350px;
+        height: 350px;
+    }
+
+    .packs{
+        width: 350px;
+        height: 350px;
+    }
 }
