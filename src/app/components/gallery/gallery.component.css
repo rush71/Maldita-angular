@@ -166,7 +166,7 @@
 /* Medium devices (landscape tablets, 768px and 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     .container__gallery{
-        height: 900px;
+        height: 1200px;
     }
 
     .gallery{
