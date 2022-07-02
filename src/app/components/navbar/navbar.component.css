@@ -119,27 +119,10 @@ nav .mainMenu .closeMenu,
 
 
 
+
 /* responsive */
 
-@media only screen and (max-width:480px) {
-    nav .mainMenu {
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: 0;
-        gap: 10px;
-        left: 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: rgb(167, 0, 0);
-        transition: top 1s ease;
-        display: none;
-    }
-}
-
-
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px) {
     nav .mainMenu {
         height: 100vh;
         position: fixed;
@@ -151,7 +134,7 @@ nav .mainMenu .closeMenu,
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: black;
+        background: rgb(0, 0, 0);
         transition: top 1s ease;
         display: none;
     }
@@ -163,7 +146,7 @@ nav .mainMenu .closeMenu,
         font-weight: bold;
         position: relative;
         left: 20px;
-        top: 10px;
+        /* top: 50px; */
         display: block;
     }
 
@@ -187,7 +170,7 @@ nav .mainMenu .closeMenu,
 
 
     nav .mainMenu li a {
-        font-size: 50px;
+        font-size: 30px;
     }
 
 
@@ -201,13 +184,11 @@ nav .mainMenu .closeMenu,
         display: none;
     }
 
-
-
     nav .icons i {
         display: inline-block;
-        padding: 30px;
+        padding: 10px;
         color: white;
-        font-size: 50px;
+        font-size: 30px;
         margin-top: 25px;
 
     }
