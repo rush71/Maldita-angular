@@ -28,20 +28,22 @@
 }
 } */
 
-
-
-.navbar-nav{
-    height: 90vh;
-    gap: 50px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aquamarine;
+@media only screen and (max-width: 480px) {
+    .navbar-nav{
+        height: 90vh;
+        gap: 50px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        
+    }
     
+    .nav-link{
+        font-size: 30px;
+    }
 }
 
-.nav-link{
-    font-size: 30px;
-}
+
 
