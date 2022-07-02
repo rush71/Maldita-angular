@@ -1,16 +1,40 @@
+.collapse{
+    margin-left: 650px;
+    font-size: 30px;
+}
+
+/* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
-    .navbar-nav{
-        height: 90vh;
-        gap: 50px;
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: aquamarine;
-        
+    .collapse{
+        margin-left: 0;
+       }
+
+}
+/* Small devices (portrait tablets and large phones, 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .collapse{
+         margin-left: 0;
+        }
+
+}
+/* Medium devices (landscape tablets, 768px and 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .collapse{
+        margin-left: 0px;
+       
     }
-    
-    .nav-link{
-        font-size: 30px;
+}
+
+/* Largue devices ( landscape desktop, 1025px and 1200px) */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+    .collapse{
+        margin-left: 250px;
+       
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+    .collapse{
+        margin-left: 400px;
+       
     }
 }
