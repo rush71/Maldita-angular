@@ -122,6 +122,7 @@ nav .mainMenu .closeMenu,
 /* responsive */
 
 @media only screen and (max-width:480px) {
+    
     nav .mainMenu {
         height: 100vh;
         position: fixed;
