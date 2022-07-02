@@ -4,14 +4,14 @@
     <div class="logo"><i class="fa-solid fa-beer-mug-empty" (click)="homeTo()"></i></div>
     <div class="maldita"><p>Maldita Birra</p>
     </div>
-    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <div class="openMenu" ><i class="fa fa-bars" (click)="javaScript()"></i></div>
 
-        <ul class="mainMenu">
-            <li><a (click)="homeTo()">Home</a></li>
-            <li><a (click)="footerTo()">Nosotros</a></li>
-            <li><a (click)="beerTo()">Birras</a></li>
-            <li><a (click)="galleryTo()">Galería</a></li>
-            <li><a (click)="contactTo()">Contacto</a></li>
+        <ul class="mainMenu" >
+            <li><a class="menu" (click)="homeTo()">Home</a></li>
+            <li><a class="menu" (click)="footerTo()">Nosotros</a></li>
+            <li><a class="menu" (click)="beerTo()">Birras</a></li>
+            <li><a class="menu" (click)="galleryTo()">Galería</a></li>
+            <li><a class="menu" (click)="contactTo()">Contacto</a></li>
             <div class="closeMenu"><i class="fa fa-times"></i></div>
             <span class="icons">
                 <i class="fab fa-facebook"></i>
