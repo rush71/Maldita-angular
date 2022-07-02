@@ -7,11 +7,12 @@
 
 
 .home-arrow {
-    position: absolute;
+    /* position: absolute; */
+    margin-top: 300px;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    /* z-index: 1; */
     cursor: pointer;
 
 }
@@ -52,6 +53,21 @@
     
 }
 
+/* ESTO SE BORRA */
+.header__container{
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)),
+    url("https://i.imgur.com/u6h5uLs.jpg");
+    background-repeat : no-repeat;
+    background-size :cover;
+    background-position: bottom;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  /* FIN DE ESTO SE BORRA */
 
     /* .home-arrow i{
     font-size: 100px;
