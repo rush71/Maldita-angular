@@ -1,6 +1,14 @@
-@media only screen and (max-width:991px){
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.navbar-nav{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 480px){
     .navbar-nav{
-        height: 700px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -18,9 +26,22 @@
 .navbar-nav{
     height: 700px;
 }
-}
+} */
+
+
 
 .navbar-nav{
-    font-family: 'Righteous', cursive;
-    text-transform: uppercase;
+    height: 90vh;
+    gap: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    
 }
+
+.nav-link{
+    font-size: 30px;
+}
+

@@ -9,7 +9,7 @@ import { ServiceService } from 'src/app/service/service.service';
 export class NavbarComponent implements OnInit {
 
   constructor(private service: ServiceService) {
-    service.carga(['/navbar/navbar']);
+    // service.carga(['/navbar/navbar']);
    }
 
   ngOnInit(): void {
