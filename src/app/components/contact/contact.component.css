@@ -1,14 +1,20 @@
-.container__contact{
-    height: 700px;
-    background-color: chocolate;
+
+
+.aaa{
+    height: 100vh;
+}
+
+.navbar-nav{
+    height: 500px;
+    gap: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
+    
 }
 
-.redes p{
-
-    font-size: 50px;
-    font-weight: 700;
-
+.nav-link{
+    font-size: 30px;
 }
