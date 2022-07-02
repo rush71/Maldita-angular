@@ -49,6 +49,7 @@
     }
     }
 
+<<<<<<< HEAD
 
 
 /* .navbar-nav{
@@ -59,10 +60,30 @@
     justify-content: center;
     align-items: center;
     background-color: aquamarine;
+=======
+@media only screen and (max-width: 480px) {
+    .navbar-nav{
+        height: 90vh;
+        gap: 50px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        
+    }
+>>>>>>> 726fd54079fde896133f28f62a657b224169e7c3
     
+    .nav-link{
+        font-size: 30px;
+    }
 }
 
+<<<<<<< HEAD
 .nav-link{
     font-size: 30px;
 } */
+=======
+
+>>>>>>> 726fd54079fde896133f28f62a657b224169e7c3
 
