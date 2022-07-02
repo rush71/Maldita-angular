@@ -87,6 +87,7 @@ nav .mainMenu li a {
     color: #fff;
     font-size: 1.2rem;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 nav .mainMenu li a:hover {

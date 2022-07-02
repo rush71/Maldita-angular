@@ -12,4 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  gallery(){
+    document.getElementById('gallery')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+
 }

@@ -15,4 +15,25 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  contactTo(){
+    document.getElementById('contact')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+
+  homeTo(){
+    document.getElementById('navbar')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+
+  }
+
+
+  beerTo(){
+    document.getElementById('gallery')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+
+  galleryTo(){
+    document.getElementById('gallery')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+
+  footerTo(){
+    document.getElementById('footer')?.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
 }
